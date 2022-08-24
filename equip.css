@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+/*body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    height: 5000px;
+}*/
+
+*{
+    font-family: 'Multa', sans-serif;
+    box-sizing: border-box;
+    color: #161616;
+
+}
+a { color: inherit; } 
+
+
+/* HEADER */
+
+.content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 7px;
+}
+
+.logo img{
+    width: 170px;
+    height: 40px;
+
+}
+
+.logo, .menu{
+    width: 30%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+
+}
+
+/* CENTRAL */
+
+.central{
+    text-align: center;    
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    
+}
+
+.central > h2 {
+    font-size: 43px;   
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0%;
+
+}
+.central > p {
+    font-size: 15px;   
+    padding: 0px;
+    padding-top: 0px;
+}
+.central > h3{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+}
+
+/* GRIDS */
+
+.grid{    
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+/* Imagem */
+
+/* Fibra */
+.gridfib > img {
+    margin-left: 222px;
+}
+
+.grid-1 > p{
+    padding-left: 15px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+/* Firmware */
+.grid-2{
+    
+}
+
+.grid-2 > h3{
+    font-size: 26px;
+    text-align: center;
+}
+.grid-2 > p{
+    padding-left: 90px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* DATA SHEET*/
+.grid-3{
+    
+}
+
+.grid-3 > h3{
+    font-size: 26px;
+    text-align: center;
+}
+.grid-3 > p{
+    padding-left: 88px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* RODAPÉ */
+footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}

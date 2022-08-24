@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Wiki</title>
+    <link rel="stylesheet" href="login.css">
+    
+  </head>
+  <body>
+    <section>
+        <header>
+          <div class="content">
+            <div class="logo">
+              <a href="index.html"><img src = "images/logo2.png" alt = "logo da GT"></a>
+            </div>
+            <div class="menu"> 
+              <nav>
+                <a href="index.html"> Home </a>
+            <a href="sobre.html"> Sobre </a>
+              </nav>
+            </div>
+          </div>
+        </header>
+    </section>
+    <section>
+        <div class="main-login">
+            <div class="left-login">
+                <h1></h1>
+                <a href="//www.goldentec.com.br"><img src="images/logo2.png" class="left-login-image"></a>
+            </div>
+
+            <form action="">        
+              <div class="right-login" action="">
+                <div class="card-login" action=""> 
+                    <h1>LOGIN</h1>
+                    
+                    <div class="textfield">
+                        <label for="usuario"> Usuário </label>
+                        <input required type="text" placeholder="usuario" id="login">
+                    </div>
+
+                    <div class="textfield">
+                        <label for="senha"> Senha </label>
+                        <input required type="password" placeholder="senha" id="pass">
+                    </div>
+
+                    <div class="textfield">
+                        <label href="" id="recover">Esqueceu a senha?</label>
+                    </div>
+                  
+                    <button type="submit" class="btn-login" onclick="validar()">LOGIN</button>         
+                </div>
+              </div> 
+            </form>
+        </div>
+    </section>
+    <script src="login.js"></script>
+    <footer id = "rodape"> 
+        <span>Direitos de Autor. © 2022 Goldentec, Inc. Todos os direitos reservados. <i class="fa-light fa-copyright"></i></span>
+    </footer>
+
+  </body>
+</html>

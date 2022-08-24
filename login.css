@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+.{
+    color: #161616;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+
+}
+a { color: #ffffff; } 
+
+
+.main-login{
+    width: 100vw; /*tela via porcentagem*/
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex; /*deixar tela lado a lado*/
+    justify-content: center; /*justificar no eixo X*/
+    align-items: center; /*justificar no eixo Y*/
+}
+
+.left-login{
+    width: 50vw; /*50% da tela*/
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /*flex-direction: column; /*direcionar o flex para ficar embaixo*/   */
+}
+
+.left-login > h1{
+    color: rgb(134, 118, 78);
+    text-transform: uppercase;
+    font-size: 33pt;
+    text-align: center;
+}
+
+.left-login-image {
+    width: 35vw;
+
+}
+.right-login{
+    width: 50vw; /*50% da tela*/
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-login{
+    width: 60%; /*Usa os 60% da div onde ele está: 50ww */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; /*embaixo do outro*/
+    padding: 30px 35px; /*margens dentro do componente*/
+    background: rgb(255, 255, 255);
+    border-radius: 18px; /*bordas*/
+    box-shadow: 0px 10px 40px rgb(134, 118, 78); /*sombra, primeiro valor para esquerda e direita 
+    e segunda para cima ou para baixo*/
+  
+}
+
+.card-login > h1 {
+    color: black;
+    font-weight: 800; 
+    margin: 0;
+}
+
+.card-login > labe1 {
+    color: black;
+    font-weight: 800; 
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*eixo X e Y se inverte*/
+    align-items: flex-start; /*a esquerda*/
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+
+.textfield > input {
+    width: 100%;
+    padding: 11px;
+    border-radius: 7px;
+    background-color: #212121;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    color: #ffffff;
+}
+
+.textfield > input:focus {
+    outline: none;
+    background-color: #212121;
+    color: #ffffff;
+
+}
+
+.textfield > label {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+
+
+.btn-login{
+    width: 30%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: #212121;
+}
+
+
+button (:disabled){
+    opacity: 0.8;
+}
+
+button (:active){
+    opacity: 0;
+}
+
+#rodape{
+    background-color: rgba(255, 255, 255, 0.027);
+    clear: both;
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+
+    }
+
+}
+
+
+.logo img{
+    width: 170px;
+    height: 40px;
+
+}
+
+.logo, .menu{
+    width: 30%;
+}
+
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+
+}
+
+.content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 7px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+/*body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    height: 5000px;
+}*/
+
+*{
+    font-family: 'Multa', sans-serif;
+    box-sizing: border-box;
+    color: #161616;
+
+}
+a { color: inherit; } 
+
+
+/* HEADER */
+
+.content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 7px;
+}
+
+.logo img{
+    width: 170px;
+    height: 40px;
+
+}
+
+.logo, .menu{
+    width: 30%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+
+}
+
+/* CENTRAL */
+
+.central{
+    text-align: center;    
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    
+}
+
+.central > h2 {
+    font-size: 43px;   
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0%;
+
+}
+.central > p {
+    font-size: 15px;   
+    padding: 0px;
+    padding-top: 0px;
+}
+.central > h3{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+}
+
+/* RODAPÉ */
+footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
